@@ -1,0 +1,348 @@
+@charset "UTF-8";
+
+/*--------------------------------------------
+BASE STYLES (MOBILE-FIRST)
+--------------------------------------------*/
+* {
+  box-sizing: border-box;
+  }
+
+/***** BASIC TEXT STYLES ******/
+@font-face {
+  font-family: 'Eudora';
+  src:url('../fonts/Eudora.woff') format('woff'),
+      url('../fonts/Eudora.woff2') format('woff2'),
+      url('../fonts/Eudora.svg#Eudora') format('svg'),
+      url('../fonts/Eudora.eot'),
+      url('../fonts/Eudora.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Eudora.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Environment-Regular';
+  src:url('../fonts/Environment-Regular/Environment-Regular.woff') format('woff'),
+      url('../fonts/Environment-Regular/Environment-Regular.woff2') format('woff2'),
+      url('../fonts/Environment-Regular/Environment-Regular.svg#Environment-Regular') format('svg'),
+      url('../fonts/Environment-Regular/Environment-Regular.eot'),
+      url('../fonts/Environment-Regular/Environment-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Environment-Regular/Environment-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+p {
+  font-family: "Environment-Regular", "Montserrat subheading", "Verdana", "sans-serif";
+  line-height: 20px;
+  font-size: 1rem;
+  color: #000;
+  flex: 1 1 auto;
+  width: 100%;
+  padding: 2%;
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Environment-Regular';
+  text-transform: uppercase;
+  }
+
+html, body {
+  height: 100%
+  }
+
+body {
+  display: flex;
+  flex-direction: column;
+  }
+
+/* nav logo   */
+.nav-logo {
+  width: auto;
+  height: 55px;
+  border-radius: 7px;
+  margin-left: 5%;
+  }
+
+.logo {
+  margin-top: 1%;
+}  
+
+/* hamburger menu */
+.hamburgerButton {
+  width: 69px;
+  height: 48px;
+  float: right;
+  margin-right: 5%;
+  }
+
+.topNav {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  position: relative;
+  margin-top: 5%;
+  }
+
+#navLinks,  #navLinks a {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  font-family: "Environment-Regular", "Bebas Neue", "sans-serif";
+  font-size: 1.5rem;
+  letter-spacing: 4px;
+  font-weight: bolder;
+  text-decoration: none;
+  color:#fff;
+  }
+
+.hams {
+   background-image: url("../ASSETS/leaves.jpg");
+   background-repeat: no-repeat;
+   background-color: #233228;
+   text-align: center;
+   background-size: cover;
+   margin-top: 10%;
+   border-radius: 5px;
+
+ 
+}  
+   
+#navLinks {
+  display: none;
+} 
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #000;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 15px;
+  font-family: "Eudora", "Bebas Neue", "sans-serif";
+  letter-spacing: 3px;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  color: #000;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.hams a:hover  {
+  background-color: #476b39;
+  color: white;
+}
+
+.homeDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/***** social Media Icons-M *****/
+.social-links {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+  justify-content: center;
+
+  }
+
+.icons {
+  padding: 8px;
+  list-style: none;
+  }
+
+.icons:hover {
+  transform: scale(1.2);
+  max-width: 70px;
+  }
+
+.footerLine {
+  display: block;
+  width: 65%;
+  max-width: 85%;
+  color: black;
+  margin-bottom: -7%;
+  }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10%;
+  }
+.copyright {
+  align-self: center;
+  margin-bottom: 5%;
+}
+
+/* Accordian Tools panels */
+
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+  flex: 1 1 auto;
+  }
+
+.brewImg {
+  border-radius: 10px 10px 0 0; 
+  margin-top: 5%;
+  display: flex;
+  flex: 1 1 auto;
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 10px 10px;
+  object-fit: cover;
+  }
+
+ .brewStyle  {
+   font-size: 1.2rem;
+   color:#fff;
+ }
+ .ingredients {
+   list-style: circle;
+   font-family: 'Environment-Regular';
+ }
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+.accordionB,
+.accordionBLink {
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 5px;
+
+ 
+  
+  }
+
+.accordionB:after {
+  content: "\02795"; /* Unicode character for (+) */
+  font-size: 15px;
+  color: #fff;
+  float: right;
+  margin-top: -20px;
+  margin-right: 5%;
+
+  }
+
+.accordionB.active:after {
+  content: "\2796"; /* Unicode character for (-) */
+  color: #fff;
+  }
+
+.panel {
+  padding: 0 20px;
+  max-width: 310px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  }
+
+/* Accordian Recipe panels */
+.accordionB,
+.accordionBLink {
+  background-color: #476b39;
+  box-shadow: none;
+  margin-top: -6px;
+  width: 100%;
+  height: 40px;
+  }
+
+/* footer */
+.social-links {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+  justify-content: center;
+  }
+
+.icons {
+  padding: 8px;
+  }
+
+.icons:hover {
+  transform: scale(1.2);
+  max-width: 70px;
+  }
+
+.footerline {
+  width: 85%;
+  }
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+  }
+
+
+
+/*-------------------------------------------------------------
+      i-PAD
+-------------------------------------------------------------*/
+/****** Large-ish Screen Media Queries: Targets VP sizes 768px & wider. *******/
+@media (min-width: 768px) {
+  
+.hamburgerButton {
+  display: none;
+  }
+
+ .logo {
+  display: flex;
+  justify-content: center;
+ }
+
+#navLinks, .hams {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  }  
+
+.hams, #navLinks {
+  margin-right: 0;
+  }
+}
+
+/*-------------------------------------------------------------
+      i-PAD PRO
+-------------------------------------------------------------*/
+/****** Large-ish Screen Media Queries: Targets VP sizes 1024px & wider. *******/
+@media (min-width: 1024px) {
+  .logo {
+    justify-content: flex-start;
+  }
+
+#navLinks, .hams {
+  justify-content: flex-end;
+  margin-top: -40px;
+    }  
+   
+  
+  
+  
+  
+  }
