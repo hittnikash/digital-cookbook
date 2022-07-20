@@ -110,8 +110,6 @@ body {
    background-size: cover;
    margin-top: 10%;
    border-radius: 5px;
-
- 
 }  
    
 #navLinks {
@@ -151,6 +149,17 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.homeImg {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  margin: 5px;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+  max-width: 100%;
+
 }
 
 /***** social Media Icons-M *****/
@@ -219,6 +228,7 @@ footer {
  .ingredients {
    list-style: circle;
    font-family: 'Environment-Regular';
+   margin-left: 5%;
  }
 
 .menu {
@@ -235,24 +245,22 @@ footer {
   font-size: 1.2rem;
   letter-spacing: 5px;
 
- 
-  
   }
-
-.accordionB:after {
-  content: "\02795"; /* Unicode character for (+) */
+/* Unicode character for (+) */
+/* .accordionB:after {
+  content: "\02795"; 
   font-size: 15px;
   color: #fff;
   float: right;
-  margin-top: -20px;
+  margin-top: -15px;
   margin-right: 5%;
+  } */
 
-  }
-
-.accordionB.active:after {
-  content: "\2796"; /* Unicode character for (-) */
+ /* Unicode character for (-) */
+/* .accordionB.active:after {
+  content: "\2796";
   color: #fff;
-  }
+  } */
 
 .panel {
   padding: 0 20px;

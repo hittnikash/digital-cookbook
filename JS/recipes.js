@@ -11,6 +11,48 @@ const meals = [
       ingredients:"<ul class='ingredients'><li>3 chicken breast</li> <li>2 pie crusts</li><li>1/2 bag of mixed vegitables</li><li>1 can of condensed cream of chicken</li><li>Salt & Pepper</li><li>Chicken Seasoning</li><li>Thyme</li>",
       recipe: "Start by dicing the chicken breast, place in a skillet with butter & seasonings on medium heat. Cook until the chicken reaches an internal temperature of 165 degrees. Drain the juices from the skillet & add the mixed vegitables. Once the vegitables are soft and the can of condensed chicken and other choice seasonings. Next let the mixture cool. Line you pie tin with one pie crust then scoop chicken mixture in pie tin. Place the other pie crust on top of mixture and crimp around the edges with a fork. Make for slits in the center of the pie crust to allow steam to escape. Put in the oven at 425 degrees & bake for about 35 minutes or until golden brown. ",
     },
+    {
+        food: "Buffalo Eggrolls",
+        image: "ASSETS/eggRoll.png",
+        ingredients: "",
+        recipe: "",
+        
+      },
+      {
+        food: "Bens Mom's Chili",
+        image: "ASSETS/chili.png",
+        ingredients: "",
+        recipe: "",
+        
+      },
+      {
+        food: "Spaggetti",
+        image: "ASSETS/spaggetti.png",
+        ingredients: "",
+        recipe: "",
+        
+      },
+      {
+        food: "Potato Soup",
+        image: "ASSETS/potatoSoup.png",
+        ingredients: "",
+        recipe: "",
+        
+      },
+      {
+        food: "",
+        image: "",
+        ingredients: "",
+        recipe: "",
+        
+      },
+      {
+        food: "",
+        image: "",
+        ingredients: "",
+        recipe: "",
+        
+      },
   ];
   
   let html = "";

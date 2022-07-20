@@ -1,34 +1,34 @@
 const meals = [
     {
-      food: "Pumpkin Pie",
-      image: "ASSETS/pumpkinPie.png",
+      food: "Pot Roast",
+      image: "ASSETS/potRoast.png",
       ingredients: "",
       recipe: "",
       
     },
     {
-        food: "Choco-cream Pie",
-        image: "ASSETS/chocolateCreamPie.png",
-        ingredients: "<ul class='ingredients'><li>1 box of Chocolate pudding</li><li>1 graham cracker pie crust</li><li>1 can whipped cream</li></ul>",
-        recipe: "First follow directions on pudding box to make the chocolate filling. Then cool the pudding before scooping into your graham cracker crust. Next top with whipped cream.  ", 
+        food: "Turkey",
+        image: "ASSETS/turkey.png",
+        ingredients: "d",
+        recipe: "  ", 
     },
     {
-        food: "Blueberry Muffins",
-        image: "ASSETS/blueberryMuffin.png",
+        food: "GB-Casserole",
+        image: "ASSETS/greenBeanCassarole.png",
         ingredients: "",
         recipe: "",
         
       },
       {
-        food: "Cherry Salad",
-        image: "ASSETS/cherrySalad.png",
+        food: "Yams",
+        image: "ASSETS/yams.png",
         ingredients: "",
         recipe: "",
         
       },
       {
-        food: "Bananna Bread",
-        image: "ASSETS/banannaBread.png",
+        food: "Macaroni & Cheese",
+        image: "ASSETS/macNcheese.png",
         ingredients: "",
         recipe: "",
         
