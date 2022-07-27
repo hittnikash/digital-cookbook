@@ -303,6 +303,7 @@ footer {
 .hams, #navLinks {
   margin-right: 0;
   }
+  
 }
 
 /*-------------------------------------------------------------
@@ -319,8 +320,38 @@ footer {
   margin-top: -40px;
     }  
    
-  
-  
-  
+  .nav-logo {
+    display: none;
+  }
+  .logo {
+    justify-content: flex-start;
+  }
+
+#navLinks, .hams {
+  justify-content: flex-end;
+  margin-top: -40px;
+    }  
+   
+  .nav-logo {
+    display: none;
+  }
+
+  .accordionB {
+    width: 50%;
+    height: auto;
+  }
+
+ .brewImg {
+   width: 50%;
+  } 
+
+  .wholePanel, .wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ 
+    
   
   }
+
