@@ -57,6 +57,10 @@ html, body {
   height: 100%
   }
 
+.hide {
+  display: none;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -303,55 +307,22 @@ footer {
 .hams, #navLinks {
   margin-right: 0;
   }
-  
 }
 
 /*-------------------------------------------------------------
       i-PAD PRO
 -------------------------------------------------------------*/
 /****** Large-ish Screen Media Queries: Targets VP sizes 1024px & wider. *******/
-@media (min-width: 1024px) {
-  .logo {
-    justify-content: flex-start;
-  }
-
-#navLinks, .hams {
-  justify-content: flex-end;
-  margin-top: -40px;
-    }  
-   
-  .nav-logo {
+ @media (min-width: 1023px) {
+  .wrapper, .footerLine, .copyright {
     display: none;
   }
-  .logo {
-    justify-content: flex-start;
-  }
+ .hide {
+   display: block;
+   text-align: center;
+   margin-top: 15%;
+   font-size: 2.5rem;
+ }
 
-#navLinks, .hams {
-  justify-content: flex-end;
-  margin-top: -40px;
-    }  
-   
-  .nav-logo {
-    display: none;
-  }
-
-  .accordionB {
-    width: 50%;
-    height: auto;
-  }
-
- .brewImg {
-   width: 50%;
   } 
-
-  .wholePanel, .wrapper {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
- 
-    
-  
-  }
 
